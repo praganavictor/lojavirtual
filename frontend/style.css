@@ -1,0 +1,131 @@
+.header-inside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ff4545;
+}
+
+.header-inside a {
+  color: #000;
+}
+
+.header-inside svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+
+.carousel-teste {
+  height: 50vh;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.promocoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.promocoes img {
+  padding: 20px;
+}
+
+.galery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.galery article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.galery img {
+  width: 30%;
+}
+
+.notificacoes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  background-color: #ff4545;
+  margin-top: 1%;
+}
+
+.notificacoes input {
+  margin-left: 5%;
+  width: 25%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4545;
+  color: white;
+}
+
+footer a {
+  color: #000;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+
+/*============= COURSE SECTION =============*/
+
+/* .narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+  font-size: 2.4rem;
+}
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1ebba3;
+  background-color: #1ebba3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+} */
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
