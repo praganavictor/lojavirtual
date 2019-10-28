@@ -1,0 +1,99 @@
+.header {
+  width: 100%;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #dddddd;
+}
+
+.mid {
+  width: 100%;
+  display: flex;
+  padding: 2.5em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchtd {
+  background-color: #fff;
+  height: 3em;
+  width: 15vw;
+  border: 0;
+}
+
+.buttontd {
+  background-color: #fff;
+  height: 3em;
+  width: 8vw;
+  border: 0;
+  text-align: right;
+}
+
+.cover {
+  background-color: #fff;
+  width: 30vw;
+  border: 1px solid #b63379;
+  border-radius: 20px;
+}
+
+.btnuser {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-right: 1em;
+  background-color: #f9f9f9;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btncart {
+  color: #fff;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #b63379;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fe65b7;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #b63379;
+}
+
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 992px) {
+  .top {
+    display: none;
+  }
+}
