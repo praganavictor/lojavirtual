@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import login from "./pages/login";
@@ -14,13 +13,12 @@ import error404 from "./pages/error404";
 const Routes = () => {
   return (
     <BrowserRouter>
-      <Header />
       <Switch>
-        <Route exact path="/" component={login} />
+        <Route exact path="/" component={dashboard} />
+
+        <Route exact path="/login" component={login} />
 
         <Route exact path="/register" component={register} />
-
-        <Route exact path="/dashboard" component={dashboard} />
 
         <Route exact path="/login" component={login} />
 
