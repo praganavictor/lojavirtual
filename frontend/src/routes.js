@@ -22,7 +22,10 @@ const Routes = () => {
 
         <Route exact path="/dashboard" component={dashboard} />
 
+        <Route exact path="/login" component={login} />
+
         <Route path="*" component={error404} />
+
       </Switch>
       <Footer />
     </BrowserRouter>
