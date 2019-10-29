@@ -1,5 +1,7 @@
 import React from "react";
 
+import './styles.css'
+
 // import { Container } from './styles';
 
 export default function login() {
@@ -10,27 +12,30 @@ export default function login() {
       <button>X</button>
     </header>
 
-    <form>
-      <div>
-        <label>Nome de usuário ou e-mail *</label>
-        <input type="text" name="user" required />
+  <div className="main">
+    <div className="login">
+      <form>
+        <div className="">
+          <label>Nome de usuário ou e-mail *</label>
+          <input type="text" name="user" required />
 
-        <label>Senha *</label>
-        <input type="password" name="password" required />
+          <label>Senha *</label>
+          <input type="password" name="password" required />
 
-        <button type="submit">Acessar</button>
-      </div>
+          <button type="submit">Acessar</button>
+        </div>
+        <div>
+          <p>Use uma rede social para entrar</p>
+          <a href="#">Facebook</a>
+        </div>
+      </form>
+      <a href="#">Esqueceu a senha?</a>
       <div>
-        <p>Use uma rede social para entrar</p>
-        <a href="#">Facebook</a>
+        <p>Ainda não possui conta?</p>
+        <a href="#">Cadastra-se</a>
       </div>
-    </form>
-    <a href="#">Esqueceu a senha?</a>
-    <div>
-      <p>Ainda não possui conta?</p>
-      <a href="#">Cadastra-se</a>
     </div>
-  
+  </div>
   </>
   )
 }
